@@ -1,0 +1,102 @@
+.box-container {
+    text-align: center;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 10%
+}
+
+.delete-button {
+    color: white;
+    background: red;
+    border: none;
+    cursor: pointer;
+    padding: 0.4rem;
+    border-radius: 5px;
+}
+
+.delete-button:hover {
+    background: lightpink;
+}
+.toast-result {
+    background: green;
+    padding: 0.5rem;
+    text-align: left;
+    padding-left: 1rem;
+    color: white;
+    font-size: 17px;
+    opacity: 0;
+    transition: opacity 0.7s linear;
+    border-radius: 5px;
+}
+.book-icon {
+    font-size: 50px;
+}
+
+.box-input {
+    text-align: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+input[type=text] {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0.5rem;
+}
+
+label {
+    float: left;
+    margin-bottom: 0.5rem;
+    margin-top: 1.3rem;
+}
+
+.add-book-button {
+    margin-top: 1rem;
+    width: 100%;
+    padding: 0.5rem;
+    border: 0;
+    cursor: pointer;
+}
+
+.add-book-button:hover {
+    background: cyan;
+}
+
+.color-book {
+    background: #209cc9;
+}
+
+.text-color-book {
+    color: #209cc9;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-large {
+    font-size: 60px;
+}
+
+.table-book-list {
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.table-book-list {
+    border-collapse: collapse;
+    text-align: left;
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 1rem;
+    background-color: transparent;
+}
+
+.table-book-list th,
+.table-book-list td {
+    padding: 0.75rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+    border-bottom: 1px solid #dee2e6;
+}
